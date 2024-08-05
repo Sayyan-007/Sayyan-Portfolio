@@ -1,0 +1,96 @@
+Day 19 (Bootstrap)
+
+● Bootstrap introduction 
+● Color and background color
+● Margin and Padding
+● Border
+● Position
+● Text
+● Button
+● Flex
+● Grid
+● Break points
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+---------------------------------
+● Bootstrap introduction 
+
+=the most popular HTML,CSS and javascript framework for developing responsive website.
+^container=its width 100% in only 576px(extra small).
+^container=its width 100% in all break points.
+---------------------------------
+● Container Size
+
+sm->small
+md->medium
+ld->large
+xl->extra large
+xxl->double extra large
+---------------------------------
+● Color and background color
+
+text.primary = blue
+text.succces = green
+text.secondary = off-white
+text.warning = orange
+text.danger = red
+text.info = light blue
+text.light = white
+text.dark = black
+text.body = body color
+text.mute = off-white
+text.white-50 = opacity 
+text.back-50 = opacity
+---------------------------------
+● Border
+
+*border-color = color as a …primary and etc...….
+*border-number = the number is how much that given for the thickness of border
+*additive border =(border-position) to give the border on that position only  
+*subractive border =(border-position-0) to remove the border on that position only
+nb:-(positons=top,bottom,start and end)
+● Border-Radious
+*rounded-top/bottom/start/end
+*rounded-cirlce = change to circle
+*rounded-pill = to rounded rectangle
+---------------------------------
+● Margin and Padding
+
+*m-size=will make margin from all position
+*mt-size=will make top margin only
+*mb-size=will make bottom margin only 
+*ms-size=will make start/left side margin only
+*me-size=will make top end/right margin only
+*mx-make start and end margin only
+*my-make top and bottom margin only
+
+*p-size=will make padding from all position
+*pt-size=will make top padding only
+*pb-size=will make bottom padding only 
+*ps-size=will make start/left side padding only
+*pe-size=will make top end/right padding only
+*px-make start and end padding only
+*py-make top and bottom padding only
+
+nb:-size should be in 0-5
+
+---------------------------------
+● Text Alignment
+*text-(start/center/end) = from left/center/right
+
+● Text Decoration
+*text-decoration-(underline,line-through,none) = for decoration.
+
+● Text Transform
+*text-(lowercase,uppercase,capitalize) = to (small letter, capital letter , first letter only to cap)
+
+● font weight
+*fw-(bold/normal/light) = to change in size(bold/normal/light)
+*fst(italic) = to italic
+
+● font size
+*fs-(1,2,3,4,5,6) = to increase the size
+
+● Text warp
+*text-(wrap/nowrap) = wrap will step to the next line at the viewport
+		    = nowrap willn't step to the next line at the viewport

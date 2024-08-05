@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function()
+   {
+      emailjs.init({publicKey: "cjGUjYs-bfPG0V6Jh",});
+    })();
+</script>
+</head>
+<body class="bg-light">
+<!-- NAV Bar starting-->
+
+<nav class="navbar navbar-light fixed-top bg-light shadow-sm ">
+  <div class="container-lg">
+    <a class="navbar-brand text-danger fw-bold fs-4" href="#">Sayyan Noor</a>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle bg-danger type="button id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#home">Home</a></li>
+        <li><a class="dropdown-item" href="#aboutme" >About</a></li>
+        <li><a class="dropdown-item" href="#service">Service</a></li>
+        <li><a class="dropdown-item" href="#project">Project</a></li>
+        <li><a class="dropdown-item" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- NAV Bar  ending-->
+
+<!-- HOME PAGE -->
+<section class="Home py-5" id="home">
+  <div class="container-lg">
+    <div class="row min-vh-100 align-items-center align-content-center">
+      <div class="col-md-6">
+        <div class="image">
+          <img src="img.png" alt="profile img" class=" border rounded-circle mw-100 mt=5">
+        </div>
+      </div>  
+
+      <div class="col-md-6">
+        <div class="Home-text">
+          <h3 class="text-muted mb-1">Hello I'm</h3>
+          <h1 class="text-uppercase text-danger  fst-italic fw-bold">Web Developer</h1>
+          <h2 class="fs-3 text-uppercase fw-bold">Sayyan Noor</h2>
+          <p>I’m  dedicated software developer with a passion for creating innovative solutions and tackling complex challenges. With over six months of experience in software development, I specialize in building scalable applications and designing efficient systems also i am beginer in Web designer.
+          </p>
+          <a href="#project" class="btn btn-danger px-4 ms-2">My Work</a>
+        </div>  
+      </div>
+    </div>
+  </div> 
+  <hr>
+</section>
+
+
+<!-- ABOUT ME  Starting-->
+
+<section class="About me py-5" id="aboutme">
+  <div class="container-lg py-4">
+    <h2 class="fw-bold text-center">About Me</h2>
+    <div class="row align-items-center align-content-center">
+      <div class="col-md-6">
+        <div>
+          <img src="line1.png" alt="profile img" class=" mw-100 mt=5">      
+        </div>
+      </div>      
+      <div class="col-md-6">
+      <div class="skill-item mb-4">
+        <h3 class="fs-6">html</h3>
+        <div class="progress mb-3" style="height:6px;">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3 class="fs-6">css</h3>
+        <div class="progress mb-3" style="height:6px;">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3 class="fs-6">java script</h3>
+        <div class="progress mb-3" style="height:6px;">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3 class="fs-6">python</h3>
+        <div class="progress mb-3" style="height:6px;">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3 class="fs-6">php</h3>
+        <div class="progress mb-3" style="height:6px;">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3 class="fs-6">java</h3>
+        <div class="progress mb-3" style="height:6px;">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <a href="cv.png" class="btn btn-danger fw-bold mx-5" target="_blank">Downlode CV</a>
+  </div> 
+  <hr>
+</section>
+
+<!-- ABOUT ME  Ending-->
+
+<!-- SERVICE Starting -->
+
+<section id="service" class="py-3">
+  <div class="container-lg py-5">
+    <h2 class="fw-bold text-center">What I Perform</h2>
+    <div class="row bg- py-3 px-5">
+      <div class="col-md-4">
+        <div class="service-item shadow-sm p-3 text-center">
+          <i class="fas fa-pencil text-danger fs-4 pt-2"></i>
+          <h4 class="text-muted">Data Entry</h4>  
+          <p class="fst-italic pt-2">Data entry is a technical skill that includes the process of entering data and updating information into an electronic service or database.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-item shadow-sm p-3 text-center">
+          <i class="fas fa-heart text-danger fs-4 pt-2"></i>
+          <h4 class="text-muted">Inspire Others</h4>  
+          <p class="fst-italic pt-2">I'm taking the motivation to all of us who look up to your energy and positive attitude when dealing with tough situations.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-item shadow-sm p-3 text-center">
+          <i class="fas fa-code text-danger fs-4 pt-2"></i>
+          <h4 class="text-muted">Web development</h4>  
+          <p class="fst-italic pt-2">refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+</section>
+
+<!-- SERVICE Ending -->
+
+
+<!-- Project Starting -->
+
+<section id="project" class="py-3">
+  <div class="container-lg py-5">
+    <h2 class="fw-bold text-center pb-3">My Projects</h2>
+    <div class="row bg- py-3 px-5">
+      <div class="col-md-4">
+        <div class="service-item shadow p-3 text-center">
+          <div class="w-100">
+            <img src="plastic.png" class="w-50">
+            <a href="project.pdf" class="btn btn-danger fw-bold mx-5" target="_blank">Click Here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-item shadow p-3 text-center">
+          <div class="w-100">
+            <img src="airbnb.png" class="w-50">
+            <a href="airbnb.html" class="btn btn-danger fw-bold mx-5" target="_blank">Click Here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-item shadow p-3 text-center">
+          <div class="w-100">
+            <img src="bridgeonnotes.png" class="w-50">
+            <a href="BridgeON notes" class="btn btn-danger fw-bold mx-5" target="_blank">Click Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+</section>
+
+<!-- Project Ending -->
+ 
+<!-- CONTACT US Starting -->
+
+<section id="contact" class="py-3">
+  <div class="container-lg py-5">
+    <h2 class="fw-bold text-center">Contact Me</h2>
+    <div class="row py-3 px-5">
+      <div class="col-md-3">
+        <div class="contact-item">
+          <div>
+            <h4 class="text-muted fs-6 "><i class="fas fa-message text-danger"></i> E-Mail</h4>  
+            <p class="fst-italic">sayyannoor007@gmail.com</p>
+          </div>
+          <div>
+            <h4 class="text-muted fs-6 "><i class="fas fa-phone  text-danger"></i> Mobile Number</h4>  
+            <p class="fst-italic">+91 833 000 6447</p>
+          </div>
+          <div>
+            <h4 class="text-muted fs-6 "><i class="fas fa-home  text-danger"></i> Office</h4>  
+            <p class="fst-italic">16-bit media<br>Hi-lite Business Park,<br>Calicut</p>
+          </div>
+         </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="contact-item">
+          <form>
+            <div class="pb-3">
+              <input type="text" placeholder="Your Name" id="name" class="border-0 shadow-sm w-50">
+            </div>
+            <div class="pb-3">              
+              <input type="email" placeholder="Your E-Mail" id="email" class="border-0 shadow-sm w-50">
+            </div>
+            <div class="pb-3">
+              <input type="text" placeholder="Your Institution Name" id="company" class="border-0 shadow-sm w-50">
+            </div class="pb-3">
+            <div>
+              <textarea rows="5" name="message" id="message" placeholder="Messsage" class="border-0 shadow-sm w-50"></textarea>
+            </div>
+            <div class="btn">
+              <input type="button" id="button" value="Send It" class="btn-danger fw-bold border-0 rounded shadow-sm px-3 py-2" onclick="sendmail()">
+            </div> 
+          </form>
+        </div> 
+      </div>
+      <div class="col-md-3">
+        <div class="contact-item">
+          <div>
+            <a href="https://www.instagram.com/sayyan_007?igsh=MWpneXo1cTN1Mm03cw==" class="text-decoration-none" target="_blank">
+              <h4 class="text-muted fs-6 ">
+              <i class="bi bi-instagram text-danger"></i> Instagram</h4>
+              <p class="fst-italic text-dark">Sayyan_007</p>
+            </a>
+         </div>
+         <div>
+          <a href="https://www.facebook.com/" class="text-decoration-none" target="_blank">
+            <h4 class="text-muted fs-6 ">
+            <i class="bi bi-facebook text-danger"></i> Facebook</h4>
+            <p class="fst-italic text-dark">Sayyan Noor</p>
+          </a>
+       </div>
+       <div>
+        <a href="https://in.linkedin.com/" class="text-decoration-none" target="_blank">
+          <h4 class="text-muted fs-6 ">
+          <i class="bi bi-linkedin text-danger"></i> LinkIn</h4>
+          <p class="fst-italic text-dark">Sayyan noor</p>
+        </a>
+     </div>
+      </div>
+
+    </div>
+  </div>
+  <hr>
+</section>
+
+<p class="text-center text-muted">Thank You For Visiting # Sayyan Noor</p>
+<!-- CONTACT US Ending -->
+<script src="js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>

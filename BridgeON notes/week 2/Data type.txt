@@ -1,0 +1,35 @@
+Data type
+-------------
+var =is global scope;when we use in a place it will be used for all part of the code.
+let , const =is block scope ;when we use in a place it will be used for block of the code.
+
+undefined =if we decleared a value and not assigned (undefind) 
+not defined =if we started to decleared a value and not decleared (undefind) 
+
+operators
+-------------
+camparison operaters (<,>,=)
+logical operators (&& / ||)
+conditonal operator (terinory operator)
+
+● Js String search methods
+        • indexOf() = which will show the index number of the letter
+        • lastIndexOf() = which will show the  index number of last letter        
+	• search() = 
+        • match() =
+        • includes() =which will search for word and show the output as true is for true and in false it return false
+        • startsWith()
+        • endsWith()
+● Js String methods
+        • split
+        • slice = which we can get a word giving by starting and ending index
+        • substring
+        • substr
+        • toUpperCase
+        • toLowerCase
+        • concat
+        • charAt
+        •  replace
+        • trim
+        • padStart()
+        • padEnd()

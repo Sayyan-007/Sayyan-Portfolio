@@ -1,0 +1,13 @@
+● Js Functions
+○ Function Declaration
+○ Return keyword
+○ Parameter vs Argument
+○ Anonymous function
+○ Arrow function
+○ Function expression
+○ What is scope? Function, Global, Block
+○ Lexical Environment or Lexical Scope
+○ Recursion
+○ Callback function
+○ IIFE or Self invoking function
+○ Rest parameter

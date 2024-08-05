@@ -1,0 +1,4 @@
+● Js object
+● What is ‘method’?
+● this keyword
+● Array destructuring & Object destructuring

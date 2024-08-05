@@ -1,0 +1,75 @@
+● Js Array
+● Js Array methods
+● Array Sort (Comparing Function)
+● For In Loop
+● For Of Loop
+● Array map
+● Array filter
+● Array reduce
+● Array forEach
+● Arrow function (Just Understand)
+----------------------------------
+● Js Array methods
+#splice =(starting index value , number of elements to delete)=to remove or add the elements from the array.
+							   =also we can store the removed  elements in another variable.
+							   =to add element (position to add element,0);
+#slice =(starting index value, ending index value[incluxive which means doesn't include that last element])
+							  =it store the deleted element in the new array and 
+							    no change in parent array.
+#sort =is used by (a.sort((a,b)=>a-b)):its using bcz of the sort just check the first value of number only.
+#flat =it is used to convert the nested array to a single array.'
+#copyWithin() =method copies array elements to another position in an array:
+
+#For In Loop= it show the index number;
+#For Of Loop=it show the elements in the array;
+
+
+● Js Array search methods
+--------------------------
+#indexof(element name)= it will show the index number;
+	=if there is element it will show -1;
+	=if there is 2 same element in the array,the first element's index value will be displayed.
+#lastIndexof(element name)=it will show the index number;
+	                  =if there is element it will show -1;
+	                  =if there is 2 same element in the array,the last element's index value will be displayed.
+#include=it will show true/false if the element is included in the array or not;
+	=the output will be on new variable;
+#find =returns the value of the first array element that passes a test function.
+example=let c=[1,2,9,3,5,4,6,8,7,9,0];
+        console.log(c.find((value)=> value>=5));
+answer:-9
+#findIndex() =returns the index number of the first array element that passes a test function.
+
+#findLast()=returns the value of the last array element that passes a test function.
+example=let c=[1,2,9,3,5,4,6,8,7,9,0];
+        console.log(c.find((value)=> value<=5));
+answer:-0
+#findLastIndex() =returns the index number of the last array element that passes a test function.
+
+
+----------------------
+
+ 
+^filter :- will return the every element that the canditions is true.
+	:-it will create a new array.
+example=to print the duplicate value.
+	let c=[1,2,9,3,5,4,6,8,7,8,0];
+        console.log(c.filter((value,index,array)=> 
+        array.indexOf(value)===index));
+
+
+^map :- will make a new array for the give conditions, and perform in all the elements.
+     =NO changes in the length of the array.
+example=to multiple all elements in an arraylet c=[1,2,9,3,5,4,6,8,7,8,0];
+        let d=c.map((item,index,array)=> 
+        array[index]=item*2);
+        console.log(d)
+^foreach = willnot make a new array for the give conditions, and perform in all the elements.
+
+
+^reduce :- return 1 value after the condition performed in the all elements.
+example=to sum of all elements in an array
+	let c=[1,2,9,3,5,4,6,8,7,8,0];
+	let d=c.map((item,index,array)=> 
+        array[index]=item+=index);
+        console.log(d)

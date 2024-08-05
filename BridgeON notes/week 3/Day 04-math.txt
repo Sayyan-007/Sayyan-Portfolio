@@ -1,0 +1,23 @@
+● Js Math
+○ Math.round()
+○ Math.ceil()
+○ Math.floor()
+○ Math.trunc()
+○ Math.pow()
+○ Math.sign()
+○ Math.sqrt()
+○ Math.abs()
+○ Math.min() and Math.max()
+○ Math. random()
+
+● Js DOM
+
+JS HTML DOM
+DOM Intro
+DOM Methods
+DOM Document
+DOM Elements
+DOM HTML
+DOM CSS
+DOM Events
+DOM Event Listener
